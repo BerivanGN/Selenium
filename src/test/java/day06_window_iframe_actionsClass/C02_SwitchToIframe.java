@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 
-public class C02_Iframe extends TestBase {
+public class C02_SwitchToIframe extends TestBase {
     // https://the-internet.herokuapp.com/iframe adresine gidin
     // "Your content goes here." yazısının görünür olduğunu test edin
 

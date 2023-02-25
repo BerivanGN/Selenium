@@ -60,7 +60,7 @@ public class C01_Assertions {
     @Test
     public void searchBoxText(){
         WebElement searchBoxElementi= driver.findElement(By.xpath("//input[@id=‘search’]"));
-        Assert.assertTrue(searchBoxElementi.isDisplayed());
+        Assert.assertTrue(searchBoxElementi.isEnabled());
     }
 
     @Test

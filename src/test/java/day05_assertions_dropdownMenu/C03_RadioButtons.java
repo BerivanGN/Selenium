@@ -42,12 +42,12 @@ public class C03_RadioButtons {
         driver.get("https://facebook.com");
 
         //  c. Create an account buton’una basin
-        driver.findElement(By.xpath("//*[text()='Giris Yap'"));
+        driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']"));
 
         //  d. Radio button elementlerini locate edin ve size uygun olani secin
-        WebElement femaleElementi= driver.findElement(By.xpath("(//input[@type='radio'])[1]"));
-        WebElement maleElementi= driver.findElement(By.xpath("(//input[@type='radio'])[2]"));
-        WebElement customElementi= driver.findElement(By.xpath("(//input[@type='radio'])[3]"));
+        WebElement femaleElementi= driver.findElement(By.xpath("//input[@value='1']"));
+        WebElement maleElementi= driver.findElement(By.xpath("//input[@value='2']"));
+        WebElement customElementi= driver.findElement(By.xpath("//input[@value='-1']"));
 
         femaleElementi.click();
 

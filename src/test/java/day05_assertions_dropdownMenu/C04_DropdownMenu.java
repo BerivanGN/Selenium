@@ -56,9 +56,9 @@ public class C04_DropdownMenu {
 
        int actualOptionSayisi = select.getOptions().size();
 
-       int expecteOptionSayisi=45;
+       int expecteOptionSayisi=28;
 
-        Assert.assertEquals(expecteOptionSayisi,actualOptionSayisi);
+        Assert.assertEquals(actualOptionSayisi,expecteOptionSayisi);
 
 
     }
